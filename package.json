@@ -1,0 +1,15 @@
+{
+  "name": "studio1.js",
+  "version": "0.0.0",
+  "description": "Async loader for studio1.js",
+  "main": "index.js",
+  "homepage": "https://github.com/studio1io/studio1.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/studio1io/studio1.js.git"
+  },
+  "bugs": "https://github.com/studio1io/studio1.js/issues",
+  "author": "Studio1 <support@studio1.io> (https://studio1.io)",
+  "license": "MIT",
+  "private": false
+}
