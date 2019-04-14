@@ -38,4 +38,8 @@ type IdentifyParamsAttributeDataType =
   | 'decimal'
   | 'date'
 
-export function loadStudio1(): Promise<Studio1>
+interface LoadStudio1Opts {
+  url?: string
+}
+
+export function loadStudio1(opts?: LoadStudio1Opts): Promise<Studio1>
