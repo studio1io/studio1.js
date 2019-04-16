@@ -36,7 +36,7 @@ type IdentifyParamsAttributeDataType =
   | 'boolean'
   | 'integer'
   | 'decimal'
-  | 'date'
+  | 'datetime'
 
 interface LoadStudio1Opts {
   url?: string
