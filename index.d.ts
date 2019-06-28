@@ -2,8 +2,8 @@ export interface Studio1 {
   init: (companyId: string) => void
   identify: (externalId: string, params: IdentifyParams) => Promise<void>
   isIdentified: () => boolean
-  startWalk: (walkId: string) => Promise<void>
-  endWalk: () => Promise<void>
+  startFlow: (flowId: string) => Promise<void>
+  endWFlow: () => Promise<void>
   reset: () => void
   on(eventName: string, listener: (...args: any[]) => void): void
   off(eventName: string, listener: (...args: any[]) => void): void
